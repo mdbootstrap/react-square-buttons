@@ -11,6 +11,9 @@ function App() {
       <Link to="/Black">
         <MDBBtn className="ms-3 mt-3">Black</MDBBtn>
       </Link>
+      <Link to="/Responsive">
+        <MDBBtn className="ms-3 mt-3">Responsive</MDBBtn>
+      </Link>
       <Link to="/Sizes">
         <MDBBtn className="ms-3 mt-3">Sizes</MDBBtn>
       </Link>

@@ -1,11 +1,11 @@
 import React from "react";
 import { MDBBtn, MDBContainer } from "mdb-react-ui-kit";
-import "./black.css";
+import "./responsive.css";
 
-export default function Black() {
+export default function Responsive() {
   return (
     <MDBContainer className="py-5 text-center">
-      <MDBBtn color="dark" className="square-md">
+      <MDBBtn color="dark" className="square-responsive">
         Button
       </MDBBtn>
     </MDBContainer>

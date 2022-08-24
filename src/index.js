@@ -15,6 +15,7 @@ import Social from "./Social/Social";
 import Brands from "./Brands/Brands";
 import Disabled from "./Disabled/Disabled";
 import Toggle from "./Toggle/Toggle";
+import Responsive from "./Responsive/Responsive";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
@@ -26,6 +27,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/Basic" element={<Basic />} />
         <Route path="/Black" element={<Black />} />
+        <Route path="/Responsive" element={<Responsive />} />
         <Route path="/Sizes" element={<Sizes />} />
         <Route path="/Colors" element={<Colors />} />
         <Route path="/Outline" element={<Outline />} />
